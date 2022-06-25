@@ -23,8 +23,7 @@ app.set("view engine", "ejs");
 
 //Rutas
 app.use("/", routesMain);
-/* app.use("/home", routesMain); */
-app.use("/menu/facturas", routesBills);
+app.use("/menu/ventas", routesBills);
 app.use("/menu/pacientes", routesPatients);
 app.use("/menu/productos", routesProducts);
 app.use("/menu/turnos", routesTurns);
