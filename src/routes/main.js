@@ -5,6 +5,7 @@ const mainControllers = require("../controllers/mainControllers.js");
 
 const router = express.Router();
 
-router.get("/", mainControllers.homepage);
+router.get("/", mainControllers.index);
+router.get("/menu", mainControllers.home);
 
 module.exports = router;

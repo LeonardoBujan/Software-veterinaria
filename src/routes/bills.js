@@ -5,5 +5,7 @@ const billsController = require("../controllers/billsController");
 
 const router = express.Router();
 
+router.get("/", billsController.bills);
+
 module.exports = router;
 
